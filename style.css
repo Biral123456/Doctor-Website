@@ -1,0 +1,260 @@
+/*General Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6rem;
+    color: #333;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header Styles*/
+.header{
+    background: #4caf50;
+    padding: 3rem;
+}
+
+.header h1{
+    font-size: 2.5em;
+    color: white;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.header p{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+/*Navbar Styles*/
+.navbar{
+    background: #333;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    padding: 1em;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navbar ul li a:hover{
+    background: #575757;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+/*Hero Section Style*/
+.hero{
+    background: url("https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=600") no-repeat center/cover;
+    padding: 4em;
+    text-align: center;
+    color: white;
+}
+
+.hero h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.hero p{
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+}
+
+.hero .btn{
+    background: #4caf50;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.hero .btn:hover{
+    background: #49a049;
+}
+
+/*About SEction Styles*/
+.about{
+    text-align: center;
+    padding: 50px;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+}
+
+.about-content p{
+    width: 45%;
+    padding-top: 2em;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.about-content img{
+    border-radius: 50%;
+    height: 15em;
+    width: 20em;
+}
+
+/*Services Section Styles*/
+.services{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+}
+
+.services .service-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services .service-item{
+    max-width: 300px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 10px #b8b7b7, -5px -5px 10px #b8b7b7;
+}
+
+.services .service-item:hover{
+    transform: translatey(-12px);
+}
+
+.services .service-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.services .service-item h3{
+    text-align: center;
+}
+
+/*Team Section Styles*/
+.team{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team .team-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team .team-member{
+    max-width: 300px;
+    padding: 4rem;
+    padding-top: 1rem;
+}
+
+.team .team-member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.team .team-member h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.team .team-member p{
+    color: #49a049;
+}
+
+/*Testimonials Styles*/
+.testimonials{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.testimonials .testimonial-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonials .testimonial-item{
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 10px #b8b7b7;
+}
+
+.testimonials .testimonial-item p{
+    text-align: center;
+    font-style: italic;
+}
+
+/*Contact Section Styles*/
+.contact{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact form .form-group{
+    padding: 1rem;
+}
+
+.contact form label{
+    display: block;
+}
+
+.contact form input, .contact form textarea{
+    width: 600px;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+}
+
+.contact form button{
+    background: #4caf50;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.contact form button:hover{
+    background: #49a049;
+}
+
+/*Footer Styles*/
+.footer{
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
